@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="organica.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        function btnClick() {
+          var x = document.getElementById("ho");
+          x.style.display = "block";
+        }
+        function cloClick(){
+            var y=document.getElementById("ho");
+            y.style.display="none"
+        }
+
+    </script>
+</head>
+<body class="container-fluid">
+    <header>
+        <h6>Free shipping for all order of $105<h6>
+    </header>
+        <div class="bar">
+            <h2>Organ<span style="color: rgb(38, 142, 38);">ica</span></h2>
+            <ul id="ho">
+                <button class="btn btn" id="clo" onclick="cloClick()"> <i class="fa fa-close"></i></button>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div style="display: flex; justify-content: space-between;padding: 20px;">
+                <div class="hid">
+                    <button  class="btn" onclick="btnClick()" ><i class="fa fa-bars" id="close"></i></button>
+                </div>
+                <div class="ica">
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-heart-o"><span>03</span></i>
+                    <i class="fa fa-cart-plus"><span>02</span></i>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <h6>25% off all products.</h6>
+            <h1>Qualityful <span>organic</span><br> fruit & <span>vegetables.</span></h1>
+            <p>It has survived not only five centuries also there leaped</p>
+            <button>Shop Now<i class="fa fa-chevron-right"></i></button>
+        </div>
+        <div class="ban">
+            <i class="fa fa-truck"></i><span>Free Shipping</span>
+            <i class="fa fa-credit-card"></i><span>Safe Pamment</span>
+            <i class="fa fa-headphones"></i><span>24/7 Support</span>
+        </div>
+        <div class="ban-1">
+            <div class="snip-1">
+                <h6>UP TO 25% OFF</h6>
+                <h3>Fersh vegetables <br>Package.</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="snip-2">
+                <h6>UP TO 25% OFF</h6>
+                <h3>Healthy & Fresh<br>beef.</h3>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <div class="products">
+            <h4 style="color: rgb(69, 203, 69);">-- Organic Products --</h4>
+            <h2>All Organic Products </h2>
+            <div class="pros">
+                <div class="pro">
+                    <img src="images/filter-1.png" width="30px" height="25px">
+                    <span>Fresh vegetables</span>
+                </div>
+                <div class="pro-1">
+                    <img src="images/filter-2-active.png" width="30px" height="25px">
+                    <span>Fish % Meat</span>
+                </div>
+                <div class="pro-1">
+                    <img src="images/filter-3-active.png" width="25px" height="30px">
+                    <span>Dairy Products</span>
+                </div>
+                <div class="pro-1">
+                    <img src="images/filter-1-active.png" width="30px" height="25px">
+                    <span>Fresh vegetables</span>
+                </div>
+            </div>
+        </div>
+        <div class="fruits">
+            <div class="fru">
+                <img src="images/product-1.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Fresh Orangey</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="fru">
+                <img src="images/product-2.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Key Lime</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="fru">
+                <img src="images/product-3.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Fresh Watermelon</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="fru">
+                <img src="images/product-4.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Visual matches</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="fruits">
+            <div class="fru">
+                <img src="images/product-5.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Pomagranate Fruit</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="fru">
+                <img src="images/product-6.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Red onion</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="fru">
+                <img src="images/product-7.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Lens Results Broccoli</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="fru">
+                <img src="images/product-8.png">
+                <div class="fav">
+                    <i class="fa fa-heart-o"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="star">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <h6>Lens Results Spinach</h6>
+                <div>
+                    <span><s>$75.00</s></span>
+                    <span style="color: rgb(22, 222, 22);">$85.00</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="summ">
+            <h4 style="color: green;font-family: cursive;">Summer Offer</h4>
+            <h3 style="margin-top: 20px;margin-bottom: 20px;">Up To 50% Off All Product.</h3>
+            <p>It has survived not only five centuries also leaped</p>
+            <button>Shop Now<i class="fa fa-chevron-right"></i></button>
+        </div>
+        <div class="produc">
+            <h5 style="color: rgb(69, 203, 69);">-- Organic Food --</h5>
+            <h2>Trendy Products</h2>
+            <div class="vegi">
+               <div class="veg">
+                    <img src="images/product-1.png" height="100px">
+                    <div>
+                        <div class="favv">
+                            <i class="fa fa-heart-o"></i>
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="starr">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h6>Fresh Orangey</h6>
+                        <div>
+                            <span><s>$75.00</s></span>
+                            <span style="color: rgb(22, 222, 22);">$85.00</span>
+                        </div>
+                        <button id="but">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="veg">
+                    <img src="images/product-2.png" height="100px">
+                    <div>
+                        <div class="favv">
+                            <i class="fa fa-heart-o"></i>
+                            <i class="fa fa-eye"></i>   
+                        </div>
+                        <div class="starr">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h6>Key Lime</h6>
+                        <div>
+                            <span><s>$75.00</s></span>
+                            <span style="color: rgb(22, 222, 22);">$85.00</span>
+                        </div>
+                        <button id="but">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="veg">
+                    <img src="images/product-3.png" height="100px">
+                    <div>
+                        <div class="favv">
+                            <i class="fa fa-heart-o"></i>
+                            <i class="fa fa-eye"></i>
+                        </div>
+                        <div class="starr">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <h6>Fresh Watermelon</h6>
+                        <div>
+                            <span><s>$75.00</s></span>
+                            <span style="color: rgb(22, 222, 22);">$85.00</span>
+                        </div>
+                        <button id="but">Add to Cart</button>
+                    </div>
+                </div>             
+            </div>
+            <div class="vegi">
+                <div class="veg">
+                     <img src="images/product-4.png" height="100px">
+                     <div>
+                         <div class="favv">
+                             <i class="fa fa-heart-o"></i>
+                             <i class="fa fa-eye"></i>
+                         </div>
+                         <div class="starr">
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                         </div>
+                         <h6>Stobery</h6>
+                         <div>
+                             <span><s>$75.00</s></span>
+                             <span style="color: rgb(22, 222, 22);">$85.00</span>
+                         </div>
+                         <button id="but">Add to Cart</button>
+                     </div>
+                 </div>
+                 <div class="veg">
+                     <img src="images/product-5.png" height="100px">
+                     <div>
+                         <div class="favv">
+                             <i class="fa fa-heart-o"></i>
+                             <i class="fa fa-eye"></i>
+                         </div>
+                         <div class="starr">
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                         </div>
+                         <h6>Pomagranate Fruit</h6>
+                         <div>
+                             <span><s>$75.00</s></span>
+                             <span style="color: rgb(22, 222, 22);">$85.00</span>
+                         </div>
+                         <button id="but">Add to Cart</button>
+                     </div>
+                 </div>
+                 <div class="veg">
+                     <img src="images/product-7.png" height="100px">
+                     <div>
+                         <div class="favv">
+                             <i class="fa fa-heart-o"></i>
+                             <i class="fa fa-eye"></i>
+                         </div>
+                         <div class="starr">
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                         </div>
+                         <h6>Lens Results Broccoli</h6>
+                         <div>
+                             <span><s>$75.00</s></span>
+                             <span style="color: rgb(22, 222, 22);">$85.00</span>
+                         </div>
+                         <button id="but">Add to Cart</button>
+                     </div>
+                 </div>             
+             </div>
+             <div class="vegi">
+                <div class="veg">
+                     <img src="images/product-8.png" height="100px">
+                     <div>
+                         <div class="favv">
+                             <i class="fa fa-heart-o"></i>
+                             <i class="fa fa-eye"></i>
+                         </div>
+                         <div class="starr">
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                         </div>
+                         <h6>Lens Results Spinach</h6>
+                         <div>
+                             <span><s>$75.00</s></span>
+                             <span style="color: rgb(22, 222, 22);">$85.00</span>
+                         </div>
+                         <button id="but">Add to Cart</button>
+                     </div>
+                 </div>
+                 <div class="veg">
+                     <img src="images/product-9.png" height="100px">
+                     <div>
+                         <div class="favv">
+                             <i class="fa fa-heart-o"></i>
+                             <i class="fa fa-eye"></i>
+                         </div>
+                         <div class="starr">
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                         </div>
+                         <h6>Lorigun Artificial</h6>
+                         <div>
+                             <span><s>$75.00</s></span>
+                             <span style="color: rgb(22, 222, 22);">$85.00</span>
+                         </div>
+                         <button id="but">Add to Cart</button>
+                     </div>
+                 </div>
+                 <div class="veg">
+                     <img src="images/product-10.png" height="100px">
+                     <div>
+                         <div class="favv">
+                             <i class="fa fa-heart-o"></i>
+                             <i class="fa fa-eye"></i>
+                         </div>
+                         <div class="starr">
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>
+                         </div>
+                         <h6>Leaf lettuce</h6>
+                         <div>
+                             <span><s>$75.00</s></span>
+                             <span style="color: rgb(22, 222, 22);">$85.00</span>
+                         </div>
+                         <button id="but">Add to Cart</button>
+                     </div>
+                 </div>             
+             </div> 
+        </div>
+    </div>
+    <div class="gbg">
+        <h5 style="font-family: cursive;">-- Organic Food --</h5>
+        <h2>Trusted Partners</h2>
+        <div class="imgs">
+            <img src="images/partner-1.png" id="raj">
+            <img src="images/partner-2.png" id="raj">
+            <img src="images/partner-3.png" id="raj">
+            <img src="images/partner-4.png" id="raj">
+            <img src="images/partner-5.png" >
+            <img src="images/partner-6.png" id="raj">
+        </div>
+    </div>
+    <div class="test">
+        <h5 style="font-family: cursive;color: green; ">-- Some Testimonial --</h5>
+        <h2>Feedback From Happy Clients</h2>
+        <div class="per">
+            <div class="person">
+                <div class="ima">
+                    <img src="images/quote-left.png">
+                    <img src="images/testimonial-1.jpg" id="ima">
+                    <img src="images/quote-right.png">
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.</p>
+                <h6 >Willow Peralta</h6>
+                <p style="color: green; font-size: 5x; font-weight: bold;">Web Developer</p>
+            </div>
+            <div class="person">
+                <div class="ima">
+                    <img src="images/quote-left.png">
+                    <img src="images/testimonial-2.jpg" id="ima">
+                    <img src="images/quote-right.png">
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.</p>
+                <h6 >Pamelia Hamrick</h6>
+                <p style="color: green; font-size: 5x; font-weight: bold;">Web Developer</p>
+            </div>
+            <div class="person">
+                <div class="ima">
+                    <img src="images/quote-left.png">
+                    <img src="images/testimonial-3.jpg" id="ima">
+                    <img src="images/quote-right.png">
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem passages and more recently with desktop publishing software like including.</p>
+                <h6 >Novella Gerber</h6>
+                <p style="color: green; font-size: 5x; font-weight: bold;">Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <h6 style="font-family: cursive; color: green;">-- News And Blog --</h6>
+        <h2>Bright Side Vegetarianism</h2>
+        <div class="blogs">
+            <div class="blog">
+                <div class="bim">
+                    <img src="images/blog-1.jpg" height="200px" width="300px">
+                </div>
+                <div class="bi">
+                    <i class="fa fa-calendar-o">13 April, 2022</i>
+                    <i class="fa fa-heart-o">58 Million</i>
+                </div>
+                <h6 style="float: left; padding-left: 30px;"><b>We automatically search for<br> andapply coupons when.</b></h6>
+                <button>Shop Now<i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="blog">
+                <div class="bim">
+                    <img src="images/blog-2.jpg" height="200px" width="300px">
+                </div>
+                <div class="bi">
+                    <i class="fa fa-calendar-o">13 April, 2022</i>
+                    <i class="fa fa-heart-o">58 Million</i>
+                </div>
+                <h6 style="float: left; padding-left: 30px;"><b>How to get more traffic in your <br>website of ecommerce.</h6>
+                <button>Shop Now<i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="blog">
+                <div class="bim">
+                    <img src="images/blog-3.jpg" height="200px" width="300px">
+                </div>
+                <div class="bi">
+                    <i class="fa fa-calendar-o">13 April, 2022</i>
+                    <i class="fa fa-heart-o">58 Million</i>
+                </div>
+                <h6 style="float: left; padding-left: 30px;"><b>25 Rules and regulation to be <br>successful in your business.</b></h6>
+                <button>Shop Now<i class="fa fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="bbg">
+        <h5 style="font-family: cursive;color: green; padding-top: 150px;">-- Subscribe Newsletter --</h5>
+        <h4 style="color: white;margin: 20px;">Sign Up To Newsletter & Get <span style="color: green;">20% Off.</span></h4>
+        <input type="text" style="height: 60px; width: 400px; border-radius: 100px;color: black; font-size: 20px; padding-left: 30px;" placeholder="Enter your email">
+        <span><button>Shop Now<i class="fa fa-chevron-right"></i></button></span>
+    </div>
+    <footer>
+        <div>
+            <h3>Organ<span style="color: green;">ica</span></h3>
+            <p>It was popularised in the 1960s with the release <br>of Letraset sheets containing Lorem passages<br>and more recently with desktop publishing<br> software like including.</p>
+            <div>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-skype"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>    
+        <ul>
+            <h3>Company</h3>
+            <li>About Us</li>
+            <li>Shop</li>
+            <li>Blog</li>
+            <li>Product</li>
+            <li>Contact Us</li>
+        </ul>
+        <ul>
+            <h3>Contact</h3>
+            <li><i class="fa fa-map-marker"></i> 7 Green Lake Street<br> Crawfordsville, IN 47933</li>
+            <li><i class="fa fa-phone"></i >+1 800 123 456 789</li>
+            <li><i class="fa fa-envelope-o"></i> organica@help.com</li>   
+        </ul>
+        <ul>
+            <h3>Newsletter</h3>
+            <li>You will be notified when somthing<br> new will be appear.</li>
+            <input type="text" style="height: 45px; width: 300px;padding-left: 10px;margin-top: 25px;" placeholder="Email Address*" id="email">
+            <span class="fa fa-envelope-o" style="color: green;font-size: 20px;margin-left:-30px;"></span>
+        </ul>
+    </footer>
+    <div class="last">
+        <h6>© 2022 <span style="color: green;">codewithsadee</span>. All Rights Reserved.</h6>
+        <span style="display: flex;">
+            <span style="margin-right: 30px;"><h6>Term and Service</h6></span>
+            <span><h6>Privacy Policy</h6></span>
+        </span>
+    </div>
+</body>
+</html>
